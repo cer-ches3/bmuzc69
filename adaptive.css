@@ -1,0 +1,681 @@
+@media (max-width:1500px) {
+
+    .header {
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 420px;
+    }
+
+    .time-working {
+        width: 250px;
+    }
+
+    .time-working img {
+        width: 230px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 150px;
+    }
+
+    .adres img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .vk img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .phone img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .e-mail img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .e-mail h4 {
+        padding-top: 5px;
+    }
+
+    .news-img img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width:1366px) {
+    .header h4 {
+        font-size: 12px;
+    }
+
+    .logo img {
+        width: 300px;
+    }
+
+    .time-working {
+        width: 250px;
+    }
+
+    .time-working img {
+        width: 250px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 130px;
+    }
+
+    .adres img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .vk img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .phone img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .e-mail img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .e-mail h4 {
+        padding-top: 5px;
+    }
+
+    .feedback {
+        padding-left: 10%;
+    }
+
+    .info-documents a {
+        font-size: 14px;
+    }
+
+    .zapisdisp h2 {
+        font-size: 22px;
+    }
+
+    .zapisdisp h4 {
+        font-size: 18px;
+    }
+
+    .zapisdisp-btn {
+        font-size: 12px;
+    }
+    .contact-head h3{
+        font-size: 16px;
+    }
+    .news-img img {
+        max-width: 250px;
+    }
+}
+
+@media (max-width:1152px) {
+    .header h4 {
+        font-size: 10px;
+    }
+
+    .logo img {
+        width: 300px;
+    }
+
+    .time-working {
+        width: 200px;
+    }
+
+    .time-working img {
+        width: 200px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 130px;
+    }
+
+    .adres img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .adres h4 {
+        padding-top: 10px;
+    }
+
+    .vk img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .phone img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .phone h4 {
+        padding-top: 10px;
+    }
+
+    .e-mail img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .e-mail h4 {
+        padding-top: 10px;
+    }
+
+    .banner img {
+        width: 150px;
+    }
+
+    .feedback {
+        padding-left: 5%;
+    }
+
+    .info-box h1 {
+        font-size: 22px;
+    }
+
+    .info-box a {
+        font-size: 14px;
+    }
+
+
+    .contact-head h3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1047px) {
+
+    .time-working {
+        width: 180px;
+    }
+
+    .time-working img {
+        width: 180px;
+    }
+
+    .adres img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .vk img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .phone img {
+        width: 20px;
+        height: 20px;
+        ;
+    }
+
+    .e-mail img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .centr-box {
+        max-width: 55%;
+    }
+
+    .news-img img {
+        max-width: 200px;
+    }
+
+    tr {
+        font-size: 11px;
+    }
+
+    .zapisdisp h2 {
+        font-size: 20px;
+    }
+
+    .zapisdisp h4 {
+        font-size: 16px;
+    }
+
+    .zapisdisp-btn {
+        font-size: 10px;
+    }
+    .contact-head h3{
+        font-size: 12px;
+    }
+    .visible-box h3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:933px) {
+    .header h4 {
+        font-size: 8px;
+    }
+
+    .logo img {
+        width: 230px;
+    }
+
+    .time-working {
+        width: 150px;
+    }
+
+    .time-working img {
+        width: 150px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 100px;
+    }
+
+    .adres img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .vk img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .phone img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .phone h4 {
+        padding-top: 10px;
+    }
+
+    .e-mail img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .e-mail h4 {
+        padding-top: 10px;
+    }
+
+    .menu li a {
+        font-size: 8px;
+    }
+
+    .banner img {
+        width: 120px;
+    }
+
+    .centr-box {
+        width: 45%;
+    }
+
+    .info-box h1 {
+        font-size: 16px;
+    }
+
+    .info-box a {
+        font-size: 10px;
+    }
+
+    .news-img img {
+        max-width: 150px;
+    }
+
+    tr {
+        font-size: 9px;
+    }
+    .contact-head h3{
+        font-size: 10px;
+    }
+    .visible-box h3{
+        font-size: 12px;
+    }
+    #feedback{
+        position: relative;
+        left: 20%;
+        right: 20%;
+    }
+}
+
+@media (max-width:799px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .time-working {
+        width: 230px;
+        padding-right: 20px;
+    }
+
+    .time-working img {
+        width: 230px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 130px;
+    }
+
+    .adres img {
+        width: 25px;
+        height: 25px;
+    }
+    .adres h4{
+        font-size: 12px;
+        padding-top: 8px;
+        margin-right: 10px;
+    }
+
+    .vk img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .phone img {
+        width: 25px;
+        height: 25px;
+    }
+    .phone h4{
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .e-mail img {
+        width: 25px;
+        height: 25px;
+    }
+    .e-mail h4 {
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .menu {
+        height: auto;
+    }
+
+    .left-box {
+        display: none;
+    }
+
+    .slideUp {
+        display: none;
+    }
+
+    .messageMe {
+        display: none;
+    }
+
+    .info-box {
+        justify-content: center;
+        width: 170%;
+    }
+
+    .news-img img {
+        max-width: 200px;
+    }
+
+    .right-box {
+        max-width: 70px;
+    }
+    .right-box h3 {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .zapisBtn {
+        font-size: 10px;
+    }
+    .contact-head h3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:683px) {
+    .menu li a {
+        font-size: 7px;
+    }
+    .time-working {
+        width: 210px;
+    }
+    .time-working img {
+        width: 210px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 110px;
+    }
+
+    .adres img {
+        width: 20px;
+        height: 20px;
+    }
+    .adres h4{
+        font-size: 10px;
+        padding-top: 8px;
+        margin-right: 10px;
+    }
+
+    .vk img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .phone img {
+        width: 20px;
+        height: 20px;
+    }
+    .phone h4{
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+    .e-mail img {
+        width: 20px;
+        height: 20px;
+    }
+    .e-mail h4 {
+        font-size: 10px;
+        padding-top: 8px;
+    }
+    .news-img img {
+        max-width: 170px;
+    }
+    #feedback{
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+}
+
+@media (max-width:601px) {
+    body {
+        margin: 10px 5%;
+    }
+    
+    .menu li a {
+        font-size: 8px;
+    }
+    .time-working {
+        width: 150px;
+    }
+    .time-working img {
+        width: 150px;
+    }
+    .work-day{
+        font-size: 12px;
+    }
+    .nwork-day{
+        font-size: 12px;
+    }
+
+    .box_vers_bad_sees img {
+        width: 80px;
+    }
+
+    .adres img {
+        width: 15px;
+        height: 15px;
+    }
+    .adres h4{
+        font-size: 7px;
+        padding-top: 8px;
+        margin-right: 10px;
+    }
+
+    .vk img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .phone img {
+        width: 15px;
+        height: 15px;
+    }
+    .phone h4{
+        font-size: 7px;
+        padding-top: 8px;
+    }
+
+    .e-mail img {
+        width: 15px;
+        height: 15px;
+    }
+    .e-mail h4 {
+        font-size: 7px;
+        padding-top: 8px;
+    }
+    
+    .info-box {
+        width: 170%;
+    }
+    .news-img img {
+        max-width: 120px;
+    }
+    .right-box {
+        max-width: 50px;
+    }
+
+    .zapisBtn {
+        font-size: 9px;
+}
+}
+
+@media (max-width:513px) {
+    .time-working {
+        width: 130px;
+    }
+    .time-working img {
+        width: 130px;
+    }
+    .work-day{
+        font-size: 11px;
+    }
+    .nwork-day{
+        font-size: 11px;
+    }
+    
+    .news-img img {
+        max-width: 100px;
+    }
+    .news-theme h2{
+        font-size: 12px;
+    }
+}
+@media (max-width:420px) {
+    .time-working {
+        width: 120px;
+    }
+    .time-working img {
+        width: 120px;
+    }
+    .work-day{
+        font-size: 10px;
+    }
+    .nwork-day{
+        font-size: 10px;
+    }
+    .news-img img {
+        max-width: 80px;
+    }
+    .news-theme h2{
+        font-size: 10px;
+    }
+    
+    .adres img {
+        width: 10px;
+        height: 10px;
+    }
+    .adres h4{
+        font-size: 5px;
+        padding-top: 14px;
+        margin-right: 10px;
+    }
+
+    .vk img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .phone img {
+        width: 10px;
+        height: 10px;
+    }
+    .phone h4{
+        font-size: 5px;
+        padding-top: 14px;
+    }
+
+    .e-mail img {
+        width: 10px;
+        height: 10px;
+    }
+    .e-mail h4 {
+        font-size: 5px;
+        padding-top: 14px;
+    }
+}
+@media (max-width:420px) {
+    body {
+        margin: 10px 1%;
+    }
+    .work-day{
+        font-size: 9px;
+    }
+    .nwork-day{
+        font-size: 9px;
+    }
+.news-img img {
+    max-width: 90px;
+}
+.right-box {
+    max-width: 45px;
+}
+.visible-box h3{
+    font-size: 10px;
+}
+.info-vacansii tr{
+    font-size: 7px;
+}
+}
+
+

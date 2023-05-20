@@ -1,0 +1,1000 @@
+body {
+    margin: 10px 10%;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 500px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.time-working{
+    width: 300px;
+}
+.time-working img {
+    width: 300px;
+}
+.work-day-box{
+    width: 10%;
+}
+.week{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5px 10px;
+}
+.work-day-img{
+    background-color: rgb(0, 176, 240);
+    border-radius: 50%;
+    color: rgb(0, 176, 240);
+}
+.nwork-day-img{
+    background-color: red;
+    border-radius: 50%;
+    color: red;
+    animation: changeColor-nwork 1s infinite;
+    animation-delay: 5s;
+}
+
+
+  @keyframes changeColor-nwork {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+  }
+
+.box_vers_bad_sees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box_vers_bad_sees img {
+    width: 180px;
+    cursor: pointer;
+}
+
+.box_vers_bad_sees:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.adres-vk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.adres:hover {
+    border-radius: 25px;
+    background-color: rgb(248, 248, 248);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.adres {
+    display: flex;
+}
+
+.adres img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.vk {
+    display: flex;
+}
+
+.vk img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.vk img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.phone {
+    display: flex;
+    margin-right: 10px;
+}
+
+.phone img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.phone:hover {
+    border-radius: 25px;
+    background-color: rgb(248, 248, 248);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.e-mail {
+    display: flex;
+}
+
+.e-mail img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.e-mail h4 {
+    padding-top: 10px;
+}
+
+.e-mail:hover {
+    border-radius: 25px;
+    background-color: rgb(248, 248, 248);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.menu {
+    position: relative;
+    z-index: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30px;
+    width: auto;
+
+    background: #868997;
+    background: -webkit-linear-gradient(top, #868997 0%, #5467d8 100%);
+    background: -moz-linear-gradient(top, #868997 0%, #5467d8 100%);
+    background: -o-linear-gradient(top, #868997 0%, #5467d8 100%);
+    background: -ms-linear-gradient(top, #868997 0%, #5467d8 100%);
+    background: linear-gradient(top, #868997 0%, #5467d8 100%);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+}
+
+.menu li {
+    position: relative;
+    list-style: none;
+
+    display: block;
+    height: 30px;
+}
+
+.menu li a {
+    display: block;
+    padding: 0 14px;
+    margin: 0;
+    line-height: 28px;
+    text-decoration: none;
+    border-left: 2px solid #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.menu li:first-child a {
+    border-left: none;
+}
+
+.menu li:last-child a {
+    border-right: none;
+}
+
+.menu li:hover>a {
+    color: greenyellow;
+    text-decoration: underline;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.menu ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1000;
+
+    opacity: 0;
+    background: #868997;
+    background: -webkit-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -moz-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -o-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -ms-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: linear-gradient(top, #5467d8 0%, #868997 100%);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+}
+
+.menu li:hover>ul {
+    opacity: 1;
+}
+
+.menu ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+
+.menu li:hover>ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+
+.menu ul li a {
+    width: 300px;
+    padding: 4px 0 4px 40px;
+    margin: 0;
+
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu ul li:last-child a {
+    border: none;
+}
+
+.widget-gosuslugi {
+    margin-top: 10px;
+}
+
+.body {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-box {
+    border-right: 2px solid rgb(240, 239, 239);
+    min-width: 150px;
+}
+
+.clock {
+    text-align: left;
+    min-width: 150px;
+}
+
+.right-box {
+    border-left: 2px solid rgb(240, 239, 239);
+    padding-left: 5px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.zapisBtn {
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    border: none;
+
+    background: #868997;
+    background: -webkit-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -moz-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -o-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -ms-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: linear-gradient(top, #5467d8 0%, #868997 100%);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+}
+
+.zapisBtn:hover {
+    color: greenyellow;
+    transform: scale(1.3);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.right-box h3 {
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner img {
+    width: 200px;
+}
+
+.banner img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.slideUp {
+    border: 1px solid black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+}
+
+.slideUp:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.messageMe {
+    position: fixed;
+    bottom: 1%;
+    right: 5%;
+}
+
+.messageMe:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.centr-box {
+    max-width: 60%;
+}
+
+.info-box h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.info-box p {
+    text-align: left;
+}
+
+.info-box {
+    display: none;
+}
+
+#main {
+    display: block;
+}
+
+/* <!-- Главная --> */
+.news-box {
+    border-top: 10px solid rgb(197, 197, 197);
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px 0 rgb(184, 184, 184);
+    margin-bottom: 10px;
+}
+
+.news-box:hover {
+    border-top: 10px solid #9facf5;
+    box-shadow: 0px 7px 7px 0 #9facf5;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.news {
+    margin: 0 10px 0px 10px;
+}
+
+.date {
+    margin: 0;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.preview {
+    display: flex;
+}
+
+.news-img img {
+    max-width: 350px;
+}
+
+.news-preview {
+    margin-left: 10px;
+}
+.btn-open-news{
+    text-align: right;
+    position: relative;
+    top: -10px;
+    right: 30px;
+}
+
+.news-box a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* свойства модального окна по умолчанию */
+.full-news {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.full-news:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.full-news-dialog {
+    position: relative;
+    width: 100%;
+    margin: 10px 20%;
+}
+@media (min-width: 350px) {
+  .full-news-dialog {
+      width: 60%;
+      margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */ 
+.full-news-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .full-news-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.full-news-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: right;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.full-news-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
+.full-news-body img{
+width: 100%;
+}
+
+
+/* <!-- Контакты --> */
+.contact-head h3 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-table {
+    width: 100%;
+}
+
+#number-phone {
+    text-align: center;
+}
+
+/* <!-- Документы --> */
+.info-documents a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-documents a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* <!-- Подразделения --> */
+.visible-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.visible-box img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.visible-box img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.invisible-box,
+.hide-structure {
+    display: none;
+}
+
+.invisible-box p span {
+    font-weight: bold;
+}
+
+/* <!-- Лек обеспечение --> */
+.info-llo a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-llo a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* <!-- Среднемесячная з/п и вакансии --> */
+table {
+    border: 3px solid #5467d8;
+}
+
+th {
+    background-color: #5467d8;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}
+
+.td-right {
+    text-align: center;
+}
+
+/* <!-- Законы --> */
+.info-zakon a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-zakon a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* <!-- Страховые компании --> */
+
+.info-strahkom {
+    display: inline-block;
+}
+
+.info-strahkom img {
+    max-width: 60%;
+    margin: 10px 20%;
+}
+
+.info-strahkom img:hover {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #5467d8;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* <!-- Диспансеризация --> */
+.info-disp a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-disp a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.zapisdisp {
+    border: 2px solid #dfdddd;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.zapisdisp h2 {
+    text-align: center;
+    color: red;
+}
+
+
+.zapisdisp-box-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.zapisdisp-btn {
+    font-size: 15px;
+    padding: 10px 10px;
+    border: none;
+
+    background: #868997;
+    background: -webkit-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -moz-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -o-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: -ms-linear-gradient(top, #5467d8 0%, #868997 100%);
+    background: linear-gradient(top, #5467d8 0%, #868997 100%);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+}
+
+.zapisdisp-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.zapisdisp-btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.zapisdisp-btn:hover>a {
+    color: greenyellow;
+}
+
+/* <!-- Углубленная Диспансеризация --> */
+.info-udisp {
+    margin-top: 20px;
+}
+
+.info-udisp a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-udisp a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.img-udisp {
+    max-width: 50%;
+}
+
+.img-udisp img {
+    max-width: 200%;
+}
+
+/* <!-- Профилактика --> */
+.info-prof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-prof img {
+    margin: 5px 5px;
+    width: 25%;
+}
+
+.info-prof img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.invisible-prof {
+    margin-top: 20px;
+}
+
+.invisible-prof img {
+    width: 50%;
+    margin: 5px;
+}
+
+.hide-prof {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.hide-prof:hover {
+    color: #5467d8;
+    cursor: pointer;
+}
+
+.epilepsia {
+    justify-content: center;
+}
+
+.epilepsia img {
+    width: 100%;
+}
+
+
+.epilepsia-deti {
+    justify-content: center;
+}
+
+.epilepsia-deti img {
+    width: 100%;
+}
+
+
+.word-box {
+    display: flex;
+}
+
+.word-box h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.word-box h4 a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.word-box img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.alko-img img {
+    width: 100%;
+}
+
+.pdf-box {
+    display: flex;
+}
+
+.pdf-box h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.pdf-box h4 a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.pdf-box img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.onko-img img {
+    width: 100%;
+}
+
+.pitanie-img img {
+    width: 100%;
+}
+
+.sahdiabet-img img {
+    width: 100%;
+}
+
+.sahdiabet-img img:hover {
+    transform: scale(1.5);
+}
+
+.invisible-prof {
+    display: none;
+}
+
+/* <!-- Как записаться на вакцинацию Covid-19 --> */
+.info-zapvaccine {
+    display: flex;
+}
+
+.info-zapvaccine-left {
+    margin: 0 40px 0 10px;
+}
+
+.info-zapvaccine-left h4 {
+    color: red;
+}
+
+.info-zapvaccine-left a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.info-zapvaccine-right {
+    max-width: 60%;
+}
+
+.info-zapvaccine-right p {
+    text-align: center;
+}
+
+.info-zapvaccine-right h4 {
+    text-align: center;
+    color: red;
+}
+
+.info-zapvaccine-right a {
+    text-decoration: none;
+    color: blue;
+}
+/* <!-- Вопросы обезболивания --> */
+.info-voprosobesbol span{
+font-weight: bold;
+text-decoration: underline;
+}
+/* <!-- Платные услуги --> */
+.info-platusl {
+    margin-top: 20px;
+}
+
+.info-platusl a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-platusl a:hover {
+    cursor: pointer;
+    color: blue;
+}
+.info-platusl {
+    display: flex;
+}
+
+.info-platusl img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/* <!-- Противопожарная безопасность --> */
+.up-box {
+    display: flex;
+}
+
+.up-box img {
+    max-width: 40%;
+}
+
+.info-pozhar img {
+    position: relative;
+    width: 100%;
+}
+
+/* <!-- Внимание, Антитеррор! --> */
+.info-antiterror img {
+    max-width: 90%;
+}
+
+/* <!-- Обратная связь! --> */
+#feedback{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+}
+
+.feedback iframe{
+    width: 650px;
+}
+
+
+
